@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: gainsboro;
+    color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#board{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+
+}
+.card{
+    width: 163px;
+    height: 125px;
+    background-image: url(karta.png);
+    background-size: 167px;
+    display: inline-block;
+    margin: 3px;
+    border: 2px solid navy;
+    border-radius: 3px;
+    filter: brightness(0.8);
+    
+}
+.card:hover{
+    border: 3px solid rgb(187, 17, 51);
+    filter: brightness(1);
+}
+.score{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
